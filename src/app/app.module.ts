@@ -10,6 +10,7 @@ import { CounterComponent } from './counter/counter.component';
 import {CounterHostComponent} from "./counter/counter-host.component";
 import {NameCardComponent} from "./namecard/name-card.component";
 import {NameCardHostComponent} from "./namecard/name-card-host.component";
+/**test */
 @NgModule({
   
   declarations: [AppComponent,AppComponentNew,List1Component,List2Component,CounterComponent,CounterHostComponent,
