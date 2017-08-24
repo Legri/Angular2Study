@@ -1,0 +1,13 @@
+
+<div style="border: 1px solid grey; margin:5px; padding:15px; ">
+    <div>
+        Counter Name - {{name}}<br />
+        Counter Value - {{counterValue}}
+    </div>
+   <button (click)="increment()">Increment</button>
+    <button (click)="decrement()">Decrement</button>
+    
+    <input type="range" #ref step="1" min="0" max="100" value={{counterValue}}  (change)="incrementPlz(ref.value)"/>
+
+    
+</div>
